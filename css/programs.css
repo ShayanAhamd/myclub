@@ -1,0 +1,48 @@
+.overly_text {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    background-color: rgba(7, 7, 7, 0.7);
+    width: 95.3%;
+    overflow: hidden;
+    height: 50px;
+    color: white;
+}
+
+.img_card {
+    height: 220px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.w-md-70 {
+    width: 70% !important;
+}
+
+.ages_btn {
+    color: #fff;
+    background-color: #23570e;
+    font-family: Sans-serif;
+    border: none;
+    padding: 7px;
+    width: 100% !important;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.ages_btn:hover {
+    color: #fff;
+    background-color: #88BA30;
+    text-decoration: underline;
+}
+
+.view_program {
+    color: #23570e;
+    font-weight: 600;
+}
+
+.view_program:hover {
+    color: #88BA30;
+    text-decoration: underline;
+}

@@ -1,0 +1,141 @@
+a:hover {
+    text-decoration: none;
+    outline: none
+}
+
+.header-title {
+    color: #23570e !important;
+    display: inline-block;
+    font: 800 22px Open Sans, serif;
+    letter-spacing: -.015em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-right: 1px solid #000000;
+    vertical-align: middle;
+    padding: 0 10px 0 0;
+}
+
+.header-list a {
+    font: normal 16px Open Sans, serif;
+    color: #88BA30 !important;
+    text-decoration: none;
+    padding: 0px 15px;
+    text-transform: uppercase;
+}
+
+.header-list li:hover {
+    background-color: #88BA30;
+}
+
+.header-list li:hover a {
+    color: white !important;
+}
+
+.w-md-60 {
+    width: 60% !important
+}
+
+.w-md-80 {
+    width: 80% !important
+}
+
+.carousel .carousel-control-prev-icon {
+    /* change fill="currentColor" to %23fff to make it white  */
+    background-image: url('https://bgca.org/assets/svg/Carousel_Prev.svg');
+}
+
+.carousel .carousel-control-next-icon {
+    /* change fill="currentColor" to %23fff to make it white  */
+    background-image: url('https://bgca.org/assets/svg/Carousel_Next.svg');
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    /* Use to adjust size of icons */
+    width: 3rem;
+    height: 3rem;
+}
+
+.img_container {
+    width: 100%;
+    height: 450px !important;
+}
+
+.slider_img {
+    max-width: 100%;
+    height: 450px !important;
+    filter: brightness(-20%);
+}
+
+.main_header {
+    color: #23570e;
+    font: normal 48px Open Sans, serif;
+    text-align: center !important;
+}
+
+.overly_text {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    background-color: #23570e;
+    width: 82%;
+    overflow: hidden;
+    height: 50px;
+    color: white;
+}
+
+.img_card {
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.w-md-85 {
+    width: 85% !important;
+}
+
+.info_s4 {
+    color: #333;
+    font: normal 19px/1.33333 Open Sans, serif;
+    margin: 18px 0 0;
+    width: 100%;
+}
+
+@media (max-width: 766px) {
+    .header-list li {
+        border-top: 1px solid #dcd7d6;
+        line-height: 44px;
+        padding-left: 24px;
+        width: 100%
+    }
+    .header-list a {
+        font: normal 16px Open Sans, serif;
+        color: #88BA30 !important;
+        text-decoration: none;
+        padding: 0px 15px;
+        text-transform: uppercase;
+        line-height: 44px;
+    }
+    .header-title {
+        border: none
+    }
+    .w-md-60 {
+        width: 100% !important;
+    }
+    .w-md-80 {
+        width: 100% !important;
+    }
+    .w-md-85 {
+        width: 100% !important;
+    }
+    .img_card {
+        height: 250px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .overly_text {
+        width: 95%;
+    }
+}

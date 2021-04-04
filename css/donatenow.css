@@ -1,0 +1,132 @@
+.image {
+    background-image: url(../images/My-Future-Photo_YoungMan_767x511.png);
+    width: 100%;
+    /* background-size: cover; */
+    /* position: sticky; */
+}
+
+.hding {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    margin-bottom: 18px;
+    color: #23570e;
+    font-family: sans-serif;
+}
+
+.para {
+    color: #170000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 28px;
+    margin: 0px 0px 20px 0px;
+    padding: 0;
+}
+
+.gift {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #23570e;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.one {
+    font-family: sans-serif;
+    font-size: 20px !important;
+    font-weight: 500;
+}
+
+input[type=radio] {
+    width: 25px;
+    height: 25px;
+}
+
+input[type='radio']:after {
+    background-color: #23570e !important;
+    visibility: visible;
+}
+
+input[type='radio']:checked:after {
+    background-color: #23570e !important;
+    visibility: visible;
+}
+
+.button {
+    color: #ffffff;
+    background-color: #23570e;
+    border: none;
+    font-size: 30px;
+    border-radius: 23px;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    -ms-border-radius: 23px;
+    -o-border-radius: 23px;
+}
+
+.button:hover {
+    color: #ffffff;
+    background-color: #88BA30;
+}
+
+.p-500 {
+    padding: 12px 33px;
+}
+
+.p-1000 {
+    padding: 12px 33px;
+}
+
+.p-2000 {
+    padding: 12px 25px;
+}
+
+.p-5000 {
+    padding: 12px 25px;
+}
+
+.p-10000 {
+    padding: 12px 25px;
+}
+
+.p-other {
+    padding: 12px 22px;
+}
+
+.donate_btn {
+    color: #ffffff;
+    background-color: #88BA30;
+    border: none;
+    font-size: 30px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.donate_btn:hover {
+    background-color: #23570e;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) and (min-width:577px) {
+    .image {
+        background-image: url(../images/My-Future-Photo_YoungMan_767x511.png);
+        width: 100%;
+        /* background-size: cover; */
+        /* position: sticky; */
+    }
+}
+
+@media only screen and (max-width: 576px) and (min-width:0px) {
+    .image {
+        background-image: none;
+        width: 100%;
+        /* background-size: cover; */
+        /* position: sticky; */
+    }
+}

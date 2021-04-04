@@ -1,0 +1,240 @@
+.links {
+    color: #88BA30;
+    font: 600 18px Sans-serif;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: #88BA30;
+    font: 600 18px Sans-serif;
+    text-decoration: none;
+}
+
+.bg_img {
+    background-image: url(../images/overview2/KidsInNeed-BlueBackground.jpg);
+}
+
+.report {
+    font: normal 28px Sans-serif;
+    color: #fff;
+}
+
+.main {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.main img {
+    vertical-align: middle;
+}
+
+.main .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(183, 182, 194, 0.7);
+    /* Fallback color */
+    background: rgb(183, 182, 194, 0.7);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    color: #23570e;
+    text-decoration: none;
+}
+
+.text:hover {
+    color: #23570e;
+    text-decoration: underline;
+}
+
+.bg_gray {
+    background-color: rgb(235, 238, 243);
+}
+
+.zip_form {
+    border-left: none;
+}
+
+.zip_marker {
+    background-color: inherit;
+    color: #23570e;
+    font-size: 24px;
+    border-right: none;
+}
+
+.btn_club {
+    color: #fff;
+    background-color: #23570e;
+    font-weight: 700;
+    font-family: Sans-serif;
+    border: none;
+    padding: 7px 50px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.btn_club:disabled,
+button[disabled] {
+    color: #fff;
+    background-color: #88BA30;
+    /* text-decoration: underline; */
+    cursor: not-allowed;
+    border: none !important;
+    padding: 7px 50px !important;
+}
+
+.btn_club:hover {
+    text-decoration: none;
+    border: none;
+    background-color: #88BA30;
+}
+
+.video_bg {
+    background-color: rgb(245, 240, 239);
+}
+
+.video_hding {
+    font-style: Sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: normal;
+    color: #23570e;
+}
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.modal-body {
+    position: relative;
+    padding: 0px;
+    border: 7px solid #fff;
+}
+
+.closes {
+    position: absolute;
+    right: -22px;
+    top: -25px;
+    z-index: 999;
+    font-size: 22px;
+    /* font-size: 2rem; */
+    font-weight: normal;
+    color: #fff;
+    opacity: 1;
+    border: none;
+    background-color: #d1d5de;
+    border-radius: 25px;
+    border: 3px solid white;
+    height: 40px;
+    width: 40px;
+}
+
+.video-btn {
+    background-color: #fff;
+    color: #23570e;
+    font-weight: 600;
+}
+
+
+/* ................button on image........... */
+
+.video-wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.video {
+    height: 100%;
+    width: 100%;
+}
+
+.image-border {
+    border: 4px solid #23570e;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.image-border:hover {
+    border: 4px solid #23570e;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.play-button2 {
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0.6;
+    font-size: 150px !important;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    color: #23570e;
+}
+
+.play-button2:hover {
+    opacity: 0.8;
+    color: #88BA30;
+}
+
+
+/* ................button on image........... */
+
+.btns {
+    color: #fff;
+    font: 700 18px Sans-serif;
+    background-color: #23570e;
+    border: none;
+    padding: 9px 0px;
+    width: 100%;
+}
+
+.btns:hover {
+    color: #fff;
+    font: 700 18px Sans-serif;
+    background-color: #23570e;
+    border: none;
+    text-decoration: underline;
+}
+
+.link {
+    color: #88BA30;
+    font: 600 18px Sans-serif;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #88BA30;
+    font: 600 18px Sans-serif;
+    text-decoration: underline;
+}

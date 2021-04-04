@@ -1,0 +1,152 @@
+.bg-light-black {
+    background: rgb(33 37 41 / 60%);
+}
+
+.dark-blue {
+    color: #23570e;
+}
+
+.light-blue {
+    color: #88BA30;
+}
+
+.txt-location-1 {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.bg_light_color {
+    background-color: #F5F0EF;
+}
+
+.progress.purples .progress-left .progress-bar {
+    animation: loading-8 1.5s linear forwards 1.8s;
+    -webkit-animation: loading-8 1.5s linear forwards 1.8s;
+}
+
+.progress.purples .progress-bar {
+    border-color: rgb(128, 0, 128);
+}
+
+
+/* blue progress bar */
+
+.progress.lgt-blue .progress-bar {
+    border-color: rgb(69, 142, 202)
+}
+
+.progress.lgt-blue .progress-left .progress-bar {
+    animation: loading-9 1.5s linear forwards 1.8s;
+    -webkit-animation: loading-9 1.5s linear forwards 1.8s;
+}
+
+.progress.lgt-blue .progress-right .progress-bar {
+    animation: loading-10 1.5s linear forwards 1.8s;
+    -webkit-animation: loading-10 1.5s linear forwards 1.8s;
+}
+
+@keyframes loading-9 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(10deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes loading-10 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(140deg);
+        transform: rotate(140deg);
+        -moz-transform: rotate(140deg);
+        -ms-transform: rotate(140deg);
+        -o-transform: rotate(140deg);
+    }
+}
+
+
+/* Red Progress  */
+
+.progress.red-color .progress-bar {
+    border-color: red;
+}
+
+.progress.red-color .progress-right .progress-bar {
+    animation: loading-12 1.5s linear forwards 0s;
+    -webkit-animation: loading-12 1.5s linear forwards 0s;
+}
+
+.progress.red-color .progress-left .progress-bar {
+    animation: loading-11 1.5s linear forwards 1.5s;
+    -webkit-animation: loading-11 1.5s linear forwards 1.5s;
+}
+
+@keyframes loading-11 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(140deg);
+        transform: rotate(140deg);
+    }
+}
+
+@keyframes loading-12 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+
+
+/* Red Progress  */
+
+.progress.yellow-color .progress-bar {
+    border-color: rgb(255, 130, 0);
+}
+
+.progress.yellow-color .progress-right .progress-bar {
+    animation: loading-14 1.5s linear forwards 0s;
+    -webkit-animation: loading-14 1.5s linear forwards 0s;
+}
+
+.progress.yellow-color .progress-left .progress-bar {
+    animation: loading-13 1.5s linear forwards 1.5s;
+    -webkit-animation: loading-13 1.5s linear forwards 1.5s;
+}
+
+@keyframes loading-13 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(150deg);
+        transform: rotate(150deg);
+    }
+}
+
+@keyframes loading-14 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}

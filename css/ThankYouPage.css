@@ -1,0 +1,91 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+}
+
+.bg_img {
+    background-image: url(../images/thank-you.jpg);
+    width: 100%;
+    height: 627px;
+    background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.thank {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    color: #23570E;
+}
+
+.way {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: #23570E;
+}
+
+.click {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: black;
+}
+
+
+/* ..........animation shop................ */
+
+.shop {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-border-radius: 10rem;
+    -moz-border-radius: 10rem;
+    -ms-border-radius: 10rem;
+    -o-border-radius: 10rem;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    font-family: Arial;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.shop:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #23570E;
+    border-radius: 10rem;
+    z-index: -2;
+}
+
+.shop:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #88BA30;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+}
+
+.shop:hover {
+    color: #fff;
+}
+
+.shop:hover:before {
+    width: 100%;
+}

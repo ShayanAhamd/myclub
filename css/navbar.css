@@ -1,0 +1,277 @@
+.navbar_1 {
+    padding: 30px 0px !important;
+}
+
+.navbar_2 {
+    padding: 6px 0px !important;
+    background-color: #3b7524 !important;
+}
+
+.search {
+    color: #fff;
+    font-size: 20px;
+}
+
+.blue_bg {
+    background-color: #3b7524;
+}
+
+.blue {
+    color: #23570e;
+}
+
+.remove_focus:focus {
+    background-color: white;
+    color: #23570e !important;
+}
+
+.search_btn {
+    border: none;
+    padding: 8px 10px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.search_btn:hover {
+    background-color: #88ba30;
+}
+
+.club_btn {
+    border: none;
+    padding: 5px 18px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: #23570e;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fff;
+    border: 2px solid rgb(220, 215, 214);
+}
+
+.club_btn:hover {
+    text-decoration: underline;
+    border: 2px solid #23570e;
+}
+
+.donate_btn {
+    background-color: #88ba30;
+    border: none;
+    padding: 5px 18px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #23570e;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border: 2px solid #d1d5de;
+}
+
+.donate_btn:hover {
+    text-decoration: underline;
+}
+
+.bg-none {
+    background-color: #23570e !important;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.drop_text {
+    color: #88BA30 !important;
+    display: inline-block;
+    font-size: 14px !important;
+}
+
+.drop_text:hover {
+    color: #fff !important;
+    background-color: #23570e;
+}
+
+::placeholder {
+    font-style: italic;
+}
+
+.bg_image {
+    background-image: url(../images/BGCA-NavDrop-Img-AboutUs.jpg);
+}
+
+
+/* ......................... */
+
+.navbar {
+    padding: 0rem;
+    margin-bottom: 2rem;
+}
+
+.dropdown .dropdown-menu {
+    border-radius: 0;
+}
+
+.mx-10 {
+    margin: 0 10%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+
+/* to change navbar toggler icon */
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(27, 144, 207)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.remove_focus {
+    outline: none;
+    width: 150px !important;
+    text-align: center;
+    font-size: 18px;
+}
+
+.img_div_1 {
+    background-image: url('../images/header/test.jpg');
+    width: 200px;
+    height: 250px;
+    background-size: cover;
+}
+
+.img_div_2 {
+    background-image: url('../images/header/02.png');
+    width: 200px;
+    height: 250px;
+    background-size: cover;
+}
+
+.img_div_3 {
+    background-image: url('../images/header/03.png');
+    width: 200px;
+    height: 250px;
+    background-size: cover;
+}
+
+.img_div_4 {
+    background-image: url('../images/header/04.png');
+    width: 200px;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.list a:hover {
+    background-color: #23570e;
+    color: white
+}
+
+.list a:hover .nabs {
+    z-index: 0;
+}
+
+.close:active {
+    display: none
+}
+
+.sign_up_header_btn {
+    color: #23570e;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.blue_bg_2 {
+    background-color: #23570e;
+}
+
+.sign_up_header_btn:hover {
+    background-color: #23570e !important;
+    color: white;
+}
+
+
+/* Medium devices (tablets, 768px and up) 
+  The navbar toggle appears at this breakpoint */
+
+@media (min-width: 768px) {
+    .border_bottom_blue {
+        border-bottom: 2px solid #23570e !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .club_btn {
+        font-size: 12px;
+    }
+    .donate_btn {
+        font-size: 12px;
+    }
+    .search_btn {
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .club_btn {
+        font-size: 11px;
+    }
+    .donate_btn {
+        font-size: 12px;
+    }
+    .small_bg_color {
+        background-color: white;
+    }
+    .remove_focus {
+        color: #88BA30 !important;
+        font-style: normal;
+        font-variant-caps: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 18px;
+        line-height: normal;
+        font-family: 'Open Sans', serif;
+        font-size-adjust: none;
+        font-kerning: auto;
+        font-optical-sizing: auto;
+        font-variant-alternates: normal;
+        font-variant-east-asian: normal;
+        font-variant-ligatures: normal;
+        font-variant-numeric: normal;
+        font-variant-position: normal;
+        font-language-override: normal;
+        font-feature-settings: normal;
+        font-variation-settings: normal;
+    }
+    .w-80 {
+        width: 100%;
+    }
+    .img_div_1 {
+        display: none;
+    }
+    .img_div_2 {
+        display: none;
+    }
+    .img_div_3 {
+        display: none;
+    }
+    .img_div_4 {
+        display: none;
+    }
+    .close_btn {
+        display: none;
+    }
+    .dropdown-menu {
+        border: none !important;
+    }
+}

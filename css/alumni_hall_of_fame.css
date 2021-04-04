@@ -1,0 +1,195 @@
+.video_bg {
+    background-color: rgb(245, 240, 239);
+}
+
+.alumni_hding {
+    font: normal 48px Sans-serif;
+    color: #23570e;
+}
+
+.alumni_para {
+    color: rgb(51, 51, 51);
+    font: normal 18px/1.33333 Sans-serif;
+}
+
+.yearbook {
+    color: #88BA30;
+    font: 600 18px Sans-serif;
+    text-decoration: none;
+}
+
+.yearbook:hover {
+    color: #88BA30;
+    font: 600 18px Sans-serif;
+    text-decoration: none;
+}
+
+.bg_blue {
+    background-color: #23570e;
+}
+
+.honerees_hding {
+    font: 600 36px Sans-serif;
+    color: #fff;
+}
+
+.main {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.main img {
+    vertical-align: middle;
+}
+
+.main .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, .6);
+    /* Fallback color */
+    background: rgba(0, 0, 0, .6);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    color: #88BA30;
+    text-decoration: none;
+}
+
+.text:hover {
+    color: #88BA30;
+    text-decoration: underline;
+}
+
+.vance_hding {
+    font: normal 28px Sans-serif;
+    color: #23570e;
+}
+
+.vance_para {
+    color: rgb(51, 51, 51);
+    font: normal 18px/1.33333 Sans-serif;
+}
+
+.links_3 {
+    color: #88BA30;
+    font: 600 18px Sans-serif;
+    text-decoration: none;
+}
+
+.links_3:hover {
+    color: #88BA30;
+    font: 600 18px Sans-serif;
+    text-decoration: none;
+}
+
+.alphabets {
+    color: #23570e;
+    font: 600 24px Sans-serif;
+}
+
+
+/* ................button on image........... */
+
+.video-wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.video {
+    height: 100%;
+    width: 100%;
+}
+
+.image-border {
+    border: 4px solid #23570e;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.image-border:hover {
+    border: 4px solid #23570e;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.play-button2 {
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0.6;
+    font-size: 150px !important;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    color: #23570e;
+}
+
+.play-button2:hover {
+    opacity: 0.8;
+    color: #88BA30;
+}
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.modal-body {
+    position: relative;
+    padding: 0px;
+    border: 7px solid #fff;
+}
+
+.closes {
+    position: absolute;
+    right: -22px;
+    top: -25px;
+    z-index: 999;
+    font-size: 22px;
+    /* font-size: 2rem; */
+    font-weight: normal;
+    color: #fff;
+    opacity: 1;
+    border: none;
+    background-color: #d1d5de;
+    border-radius: 25px;
+    border: 3px solid white;
+    height: 40px;
+    width: 40px;
+}
+
+.video-btn {
+    background-color: #fff;
+    color: #23570e;
+    font-weight: 600;
+}
+
+
+/* ................button on image........... */

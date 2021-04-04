@@ -1,0 +1,26 @@
+.s3_description {
+    color: #333;
+    font: normal 20px/1.33333 Open Sans, serif;
+    margin: 18px 0 0;
+    width: 100%;
+}
+
+.bg_blue {
+    background-color: #23570e;
+}
+
+.no_border {
+    border: none !important
+}
+
+.donate_btn {
+    color: #ffffff;
+    background-color: #23570e;
+    border: 1px solid #23570e;
+}
+
+.donate_btn:hover {
+    color: #88BA30;
+    background-color: #ffffff;
+    border: 1px solid #88BA30;
+}

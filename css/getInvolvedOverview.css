@@ -1,0 +1,106 @@
+.s1_rightDiv {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.w-md-85 {
+    width: 85% !important;
+}
+
+.bg_grey {
+    background-color: #f5f0ef;
+}
+
+.bg_blue {
+    background-color: #23570e;
+}
+
+.bg_green {
+    /* background-color: #004b87; */
+    background-image: url(../images/overview2/KidsInNeed-BlueBackground.jpg);
+    background-size: cover;
+}
+
+.upper_border {
+    border-top: 1px inset rgb(170, 170, 170);
+}
+
+.donate_btns {
+    background-color: #84bd00;
+    height: 55px;
+    text-transform: uppercase !important;
+    padding: 10px 60px;
+    color: white;
+    border: 3px solid #84bd00;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.donate_btns:hover {
+    background-color: #ffffff;
+    color: #23570e;
+    border: 3px solid #23570e;
+}
+
+.bd_none {
+    border: none !important;
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.overly_text {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    background-color: rgb(35, 87, 14, 0.7);
+    width: 82%;
+    overflow: hidden;
+    height: 50px;
+    color: white;
+}
+
+.img_card {
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.alumni_img {
+    background-image: url(../images/alumni.jpg);
+}
+
+.regional_img {
+    background-image: url(../images/images/img-jfk.jpeg);
+}
+
+.more_btn {
+    background-color: #84bd00;
+    color: #ffffff;
+}
+
+.more_btn:hover {
+    background-color: #23570e;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+@media (max-width: 767px) {
+    .w-md-85 {
+        width: 100% !important;
+    }
+    .img_card {
+        height: 250px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .overly_text {
+        width: 95%;
+    }
+}

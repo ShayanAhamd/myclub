@@ -141,10 +141,7 @@
                         <button class="sign_up_header_btn w-50 btn ml-2 px-2">SIGN</button>
                     </div>
                     <h6 class="mt-4">If you like this post, you'll like:</h6>
-
-
                     <?php
-
                     require_once "config.php";
                     $id = $_GET['id'];
                     $sql = "SELECT * FROM `news_stories` ORDER BY `id` DESC limit 5";

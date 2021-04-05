@@ -35,62 +35,59 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-6 col-lg-4">
-                                    <a href="" class="footer_text footer_hding">
+                                    <a href="./overview.php" class="footer_text footer_hding">
                                         <h5>About Us</h5>
                                     </a>
-                                    <a href="" class="footer_text">
+                                    <a href="./advocacy.php" class="footer_text">
                                         <p>Careers</p>
                                     </a>
-                                    <a href="" class="footer_text">
+                                    <a href="./overview.php" class="footer_text">
                                         <p>Find a Club</p>
                                     </a>
-                                    <a href="" class="footer_text">
+                                    <a href="./our_mission.php" class="footer_text">
                                         <p>Our Mission</p>
                                     </a>
-                                    <a href="" class="footer_text">
+                                    <a href="./local_club.php" class="footer_text">
                                         <p>Contact us</p>
                                     </a>
                                 </div>
                                 <div class="col-6  col-lg-4">
-                                    <a href="" class="footer_text footer_hding">
+                                    <a href="./getInvolvedOverview.php" class="footer_text footer_hding">
                                         <h5>Get Invloved</h5>
                                     </a>
-                                    <a href="" class="footer_text">
+                                    <a href="./joinAlumniFriends.php" class="footer_text">
                                         <p>Alumni</p>
                                     </a>
-                                    <a href="" class="footer_text">
+                                    <a href="./our_partners.php" class="footer_text">
                                         <p>Partners</p>
                                     </a>
-                                    <a href="" class="footer_text">
+                                    <a href="./programsOverview.php" class="footer_text">
                                         <p>Programs</p>
                                     </a>
-                                    <a href="" class="footer_text">
+                                    <a href="./waysToGive.php" class="footer_text">
                                         <p>Ways to Give</p>
                                     </a>
                                 </div>
-
                                 <div class=" col-6 col-lg-4 mt-4 mt-lg-0">
-                                    <a href="" class="footer_text footer_hding">
+                                    <a href="./programsWorkforceReadiness.php" class="footer_text footer_hding">
                                         <h5>Resources</h5>
                                     </a>
-                                    <a href="" class="footer_text">
+                                    <a href="./child_saftey.php" class="footer_text">
                                         <p>Child Safety</p>
                                     </a>
-                                    <a href="" class="footer_text">
+                                    <a href="./club_imapct.php" class="footer_text">
                                         <p>Club Impact</p>
                                     </a>
-                                    <a href="" class="footer_text">
+                                    <a href="./annual_report.php" class="footer_text">
                                         <p>Annual Report</p>
                                     </a>
-                                    <a href="" class="footer_text">
+                                    <a href="./ecomerceMain.php" class="footer_text">
                                         <p>Shop Our Stor</p>
                                     </a>
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
             </div>
         </div>

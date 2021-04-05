@@ -1,4 +1,3 @@
-
 </style>
 <!-- for upper row -->
 <div class="container-fluid" style="background-color: #dcf5b0;">
@@ -6,11 +5,11 @@
         <div class="col-md-5 offset-md-1 py-4 ">
             <div class="row">
                 <div class="col-6">
-                   <a href="./home.php">
-                   
-                   <img src="../images/logo.png" alt="navbar_logo..." height="55px" width="240px">
-                   
-                   </a> 
+                    <a href="./home.php">
+
+                        <img src="../images/logo.png" alt="navbar_logo..." height="55px" width="240px">
+
+                    </a>
                 </div>
                 <div class="col-6 text-right pt-2">
                     <button class="navbar-toggler d-md-none flex-row-reverse" type="button" data-toggle="collapse"
@@ -36,9 +35,11 @@
                         </button>
                     </div>
                     <div class="col-6 col-md-5 px-2 mx-0">
-                        <button class="donate_btn w-100">
-                            <span class="donate">DONATE NOW</span>
-                        </button>
+                        <a href="./donatenow.php">
+                            <button class="donate_btn w-100">
+                                <span class="donate">DONATE NOW</span>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -116,7 +117,8 @@
                             <a class="dropdown-item blue" href="./getInvolvedStartaClub.php">Start a Club</a>
                         </div>
                         <div class="pt-3 list">
-                            <a class="dropdown-item blue" href="./getInvolvedEquaity&Justice.php">Equity & Social Justice</a>
+                            <a class="dropdown-item blue" href="./getInvolvedEquaity&Justice.php">Equity & Social
+                                Justice</a>
                             <a class="dropdown-item blue" href="./getInvolvedInvestinKids.php">#InvestInKids</a>
                             <a class="dropdown-item blue" href="./getInvolvedBecomeaPartner.php">Become a Partner</a>
                             <a class="dropdown-item blue" href="./getInvolvedUpcomingEvents.php">Events</a>
@@ -154,13 +156,14 @@
                         </div>
                         <div class="pt-3 list">
                             <a class="dropdown-item blue" href="./kids_cycle_of_inequity.php">Cycles of Inequity</a>
-                            <a class="dropdown-item blue" href="./kids_elevate_youth_voices.php">Elevate Youth Voices</a>
+                            <a class="dropdown-item blue" href="./kids_elevate_youth_voices.php">Elevate Youth
+                                Voices</a>
                             <a class="dropdown-item blue" href="./kids_mentorship_voice.php">Mentorship Voices</a>
                         </div>
                     </div>
                 </div>
             </li>
-            
+
             <li class="nav-item pl-3  dropdown mx-md-auto">
                 <a class="nav-link  active remove_focus text-left" href="#" id="servicesDropdown" role="button"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Programs</a>
@@ -178,10 +181,12 @@
                             <a class="dropdown-item blue" href="./programsEducation.php">Education</a>
                             <a class="dropdown-item blue" href="./programsTheArts.php">The Arts</a>
                             <a class="dropdown-item blue" href="./programsHealthWellness.php">Health & Wellness</a>
-                            <a class="dropdown-item blue" href="./programsWorkforceReadiness.php">Workforce Readiness</a>
+                            <a class="dropdown-item blue" href="./programsWorkforceReadiness.php">Workforce
+                                Readiness</a>
                         </div>
                         <div class="pt-3 list">
-                            <a class="dropdown-item blue" href="./programsCharacterLeadership.php">Character & Leadership</a>
+                            <a class="dropdown-item blue" href="./programsCharacterLeadership.php">Character &
+                                Leadership</a>
                             <a class="dropdown-item blue" href="./programsTeensYoungAdults.php">Team & Young Adults</a>
                             <a class="dropdown-item blue" href="./programsInitiatives.php">Initiatives</a>
                             <a class="dropdown-item blue" href="./programsYouthOfTheYear.php">Youth of the Year</a>
@@ -190,7 +195,7 @@
                     </div>
                 </div>
             </li>
-            
+
             <li class="nav-item pl-3  active mx-md-auto">
                 <a class="nav-link remove_focus text-left" href="./news&stories.php">News & Stories</a>
             </li>

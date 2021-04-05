@@ -201,7 +201,7 @@
             <div class="row">
                 <div class="col-12 col-lg-6 pt-4">
                     <div class="main p-0">
-                        <img src="../images/images/img-jdjh.jpeg" alt="Notebook" height="400px" style="width:100%;">
+                        <img src="../images/img/img-df.jpg" alt="Notebook" height="400px" style="width:100%;">
                         <div class="content">
                             <a href="./our_mission.php" class="underline">
                                 <h1 class="text pt-2">Our Mission & Story</h1>
@@ -211,7 +211,7 @@
                 </div>
                 <div class="col-12 col-lg-6 pt-4">
                     <div class="main p-0">
-                        <img src="../images/images/img-mbc.jpeg" alt="Notebook" height="400px" style="width:100%;  ">
+                        <img src="../images/img/images.jfif" alt="Notebook" height="400px" style="width:100%;  ">
                         <div class="content">
                             <a href="./club_imapct.php" class="underline">
                                 <h1 class="text pt-2">Club Impact</h1>
@@ -221,7 +221,7 @@
                 </div>
                 <div class="col-12 col-lg-6 pt-4">
                     <div class="main">
-                        <img src="../images/images/img-3.jpeg" alt="Notebook" height="400px" style="width:100%;  ">
+                        <img src="../images/img/imgfi.jpg" alt="Notebook" height="400px" style="width:100%;  ">
                         <div class="content">
                             <a href="./local_club.php" class="underline">
                                 <h1 class="text pt-2">Local Clubs</h1>
@@ -241,7 +241,7 @@
                 </div>
                 <div class="col-12 col-lg-6 pt-4">
                     <div class="main">
-                        <img src="../images/images/img-jfdks.jpeg" alt="Notebook" height="400px" style="width:100%;  ">
+                        <img src="../images/img/img-re.jpg" alt="Notebook" height="400px" style="width:100%;  ">
                         <div class="content">
                             <a href="./leadership_boardofgoverners.php" class="underline">
                                 <h1 class="text pt-2">Our Board of Governors</h1>
@@ -251,7 +251,7 @@
                 </div>
                 <div class="col-12 col-lg-6 pt-4">
                     <div class="main">
-                        <img src="../images/images/img-dsf.jpeg" alt="Notebook" height="400px" style="width:100%; ">
+                        <img src="../images/img/parner-logos.jpg" alt="Notebook" height="400px" style="width:100%; ">
                         <div class="content">
                             <a href="./our_partners.php" class="underline">
                                 <h1 class="text pt-2">Our Partners</h1>
@@ -261,7 +261,7 @@
                 </div>
                 <div class="col-12 col-lg-6 pt-4">
                     <div class="main">
-                        <img src="../images/images/img-sdf.jpeg" alt="Notebook" height="400px" style="width:100%; ">
+                        <img src="../images/img/img-IK.jpg" alt="Notebook" height="400px" style="width:100%; ">
                         <div class="content">
                             <a href="./news&stories.php" class="underline">
                                 <h1 class="text pt-2">News & Stories</h1>
@@ -271,7 +271,7 @@
                 </div>
                 <div class="col-12 col-lg-6 pt-4">
                     <div class="main">
-                        <img src="../images/images/img-grp.jpeg" alt="Notebook" height="400px" style="width:100%;">
+                        <img src="../images/img/program.jpg" alt="Notebook" height="400px" style="width:100%;">
                         <div class="content">
                             <h1 class="text pt-2">Careers</h1>
                         </div>
